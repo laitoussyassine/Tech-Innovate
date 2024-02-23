@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       
       <body className={bodyFont.className}>
-        <div className="max-w-6xl min-h-screen my-0 mx-auto flex flex-col justify-around ">
+        <div className="min-h-screen my-0 flex flex-col gap-5 bg-black">
           <Navbar />
           {children}
           <Footer />
