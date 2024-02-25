@@ -8,9 +8,9 @@ import { MdOutlineDone } from "react-icons/md";
 
 const contact = () => {
   return (
-    <div>
+    <div className='mx-8'>
         <h1>Contact Us</h1>
-      <div className='grid grid-cols-6 gap-6 px-6 py-10 bg-black text-white'>
+      <div className='grid grid-cols-6 gap-6 py-10 bg-black text-white'>
         {/* first div */}
         <div className='lg:col-span-2 col-span-full'>
           <p className='text-textSecond font-bold my-4'>Get In Touch</p>
@@ -19,7 +19,7 @@ const contact = () => {
           <ul className='flex flex-col gap-5 my-4'>
             <li className='flex gap-5'>
             <MdOutlineDone className='bg-mainColor rounded-2xl text-2xl' />
-              <p>5+ Years Of Experience</p>
+              <p>2+ Years Of Experience</p>
             </li>
             <li className='flex gap-5'>
             <MdOutlineDone className='bg-mainColor rounded-2xl text-2xl' />
@@ -27,7 +27,7 @@ const contact = () => {
             </li>
             <li className='flex gap-5'>
               <MdOutlineDone className='bg-mainColor rounded-2xl text-2xl' />
-              <p>Mobile Apps Design</p>
+              <p>web apps development</p>
             </li>
             <li className='flex gap-5'>
               <MdOutlineDone className='bg-mainColor rounded-2xl text-2xl' />
@@ -46,25 +46,25 @@ const contact = () => {
             </div>
             <div className='w-1/2'>
               <TitleLabel title={"email address"} />
-              <InputField placeholder={"support@gmail.com"}  className={""}/>
+              <InputField placeholder={"support@gmail.com"} className={""}/>
             </div>
           </div>
           <div className='flex gap-10'>
             <div className='w-1/2'>
               <TitleLabel title={"phone  number"} />
-              <InputField placeholder={"+880 (123) 456 56"}  className={""}/>
+              <InputField placeholder={"+880 (123) 456 56"} className={""}/>
             </div>
             <div className='w-1/2'>
               <TitleLabel title={"subject"} />
-              <InputField placeholder={"subject"}  className={""}/>
+              <InputField placeholder={"subject"} className={""}/>
             </div>
           </div>
           </div>
           <div className='mt-2'>
               <TitleLabel title={"message"} />
-              <InputField placeholder={"write message"}  className={"pb-20"}/>
+              <InputField placeholder={"write message"} className={"pb-20"}/>
           </div>
-          <SubmitButton className={"w-3/7 py-2 px-6 rounded-lg my-5 "} title={"SEND MESSAGE >"} />
+          <SubmitButton className={"w-3/7 py-2 px-6 rounded-lg my-5 hover:text-gray-600 "} title={"SEND MESSAGE >"} />
         </div>
       </div>
     </div>

@@ -18,7 +18,8 @@ module.exports = {
         inputBg: "#1f1f1f",
         inputbgFocus: "#070707",
         textSecond: "#9c9c9c",
-        navbarBg: "#262626"
+        navbarBg: "#262626",
+        serviceBoxTitle: "#adadad"
       }
     },
   },
