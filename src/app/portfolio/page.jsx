@@ -1,8 +1,9 @@
+import ImageSlider from "@/components/slider/imageSlider"
+import { SliderData } from '../../utils/imageData/projectsImage.js';
 
 const portfolio = () => {
   return (
-    <div>portfolio</div>
+    <ImageSlider slides={SliderData} />
   )
 }
-
 export default portfolio
