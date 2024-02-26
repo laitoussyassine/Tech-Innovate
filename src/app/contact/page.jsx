@@ -8,7 +8,7 @@ import { MdOutlineDone } from "react-icons/md";
 
 const contact = () => {
   return (
-    <div className='mx-8'>
+    <div className='mx-8 px-10'>
         <h1>Contact Us</h1>
       <div className='grid grid-cols-6 gap-6 py-10 bg-black text-white'>
         {/* first div */}

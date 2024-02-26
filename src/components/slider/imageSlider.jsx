@@ -23,8 +23,8 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <section className='slider'>
-      <GoChevronLeft className='left-arrow absolute lg:left-36 top-1/2 left-5 text-white bg-mainColor rounded-full hover:text-black' onClick={prevSlide} />
-      <GoChevronRight className='right-arrow text-white bg-mainColor rounded-full hover:text-black' onClick={nextSlide} />
+      <GoChevronLeft className='left-arrow absolute lg:left-28 top-1/2 left-0 text-white bg-mainColor rounded-full hover:text-black' onClick={prevSlide} />
+      <GoChevronRight className='right-arrow absolute lg:right-28 top-1/2 right-0 text-white bg-mainColor rounded-full hover:text-black' onClick={nextSlide} />
       {SliderData.map((slide, index) => {
         return (
           <div
@@ -33,7 +33,7 @@ const ImageSlider = ({ slides }) => {
           >
             
             {index === current && (
-              <img src={slide.image} alt='travel image' className='rounded-lg' width={600}  />
+              <Image src={slide.image.src} alt='travel image' className='rounded-lg' width={800} height={500} />
               )}
           </div>
         );
