@@ -2,7 +2,6 @@ import React from 'react'
 import InputField from '@/components/resusableComponents/InputField'
 import SubmitButton from '@/components/resusableComponents/SubmitBuuton'
 import TitleLabel from '@/components/resusableComponents/TitleLabel'
-// import TitleLabel from '@/components/resusableComponents/titleLabel'
 import { MdOutlineDone } from "react-icons/md";
 
 
