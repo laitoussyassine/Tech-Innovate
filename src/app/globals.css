@@ -16,9 +16,7 @@
   } */
   
   .right-arrow {
-    position: absolute;
-    top: 50%;
-    right: 150px;
+
     font-size: 3rem;
     z-index: 10;
     cursor: pointer;
@@ -26,9 +24,7 @@
   }
   
   .left-arrow {
-    position: absolute;
-    top: 50%;
-    left: 150px;
+    
     font-size: 3rem;
     z-index: 10;
     cursor: pointer;
